@@ -1,0 +1,5 @@
+Project có tất cả hai file xử lý:
+
+1. Step3_PreprocessingData.ipynb là file tiền xử lý dữ liệu, sau khi dữ liệu làm sạch xong sẽ lưu thành RFM_OnlineRetail.csv
+
+2. RFM_ClusterAnalysys là file xây dựng model, phân tích dữ liệu và xử lý vấn đề bài toán.
