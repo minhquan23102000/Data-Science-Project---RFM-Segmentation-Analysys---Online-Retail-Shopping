@@ -1,5 +1,5 @@
 streamlit
 pandas
-pickle
+pickle-mixin
 numpy
 plotply
