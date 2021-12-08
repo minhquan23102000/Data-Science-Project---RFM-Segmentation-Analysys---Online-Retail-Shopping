@@ -3,3 +3,4 @@ pandas
 pickle-mixin
 numpy
 plotly
+scikit-learn
