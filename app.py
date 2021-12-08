@@ -2,12 +2,10 @@ import streamlit as st
 import pandas as pd
 import pickle
 import numpy as np
-from PIL import Image
 import plotly.express as px
 
 #set page wide
-st.set_page_config(page_title="Retail Shopping", page_icon="img/icon.png")
-#st.set_page_config(page_title="Retail Shopping", page_icon="img/icon.png")
+st.set_page_config(page_title="Customer Segmentation App", page_icon="img/icon.png")
 
 menu = ['Introduction', 'Classfication Model']
 choice = st.sidebar.selectbox("Menu", menu)
