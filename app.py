@@ -1,8 +1,9 @@
-import streamlit as st
-import pandas as pd
 import pickle
+
 import numpy as np
+import pandas as pd
 import plotly.express as px
+import streamlit as st
 
 #set page wide
 st.set_page_config(page_title="Customer Segmentation App", page_icon="img/icon.png")
@@ -22,7 +23,7 @@ if choice == menu[0]:
 
     st.write("Here is what the data looks like. Because it's huge about (0.5M records) so I only show a small pieces "
              "of it.")
-    data = pd.read_csv('OnlineRetail.csv', encoding='unicode_escape').head(100)
+    data = pd.read_csv('data/OnlineRetail.csv', encoding='unicode_escape').head(100)
     st.write(data)
 
     st.markdown("")
